@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="a">
+
+        <div class="corpo">
+            <div class="visor"> <p id="display"></p></div>
+            <div class="calculadora">
+                <input type="button" value="AC" id="clear" onclick="limpar()">
+                <input type="button" value="," id="virgula" onclick="adcionarNum(this.value)">
+                <input type="button" value="0" id="n0" onclick="adcionarNum(this.value)">
+                <input type="button" value="1" id="n1" onclick="adcionarNum(this.value)">
+                <input type="button" value="2" id="n2" onclick="adcionarNum(this.value)">
+                <input type="button" value="3" id="n3" onclick="adcionarNum(this.value)">
+                <input type="button" value="4" id="n4" onclick="adcionarNum(this.value)">
+                <input type="button" value="5" id="n5" onclick="adcionarNum(this.value)">
+                <input type="button" value="6" id="n6" onclick="adcionarNum(this.value)">
+                <input type="button" value="7" id="n7" onclick="adcionarNum(this.value)">
+                <input type="button" value="8" id="n8" onclick="adcionarNum(this.value)">
+                <input type="button" value="9" id="n9" onclick="adcionarNum(this.value)">
+                <input type="button" value="+" id="plus" onclick="adcionarNum(this.value)">
+                <input type="button" value="-" id="less" onclick="limpar()">
+                <input type="button" value="*" id="mult" onclick="limpar()">
+                <input type="button" value="&divide;" id="divi" onclick="limpar()">
+                <input type="button" value="=" id="res" >
+                <input type="button" value="X" id="apagar">
+
+                
+            </div>
+        </div>
+    </div>
+        <script src="script.js"></script>
+</body> 
+</html>
